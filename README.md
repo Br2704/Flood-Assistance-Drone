@@ -23,9 +23,21 @@ An **AI-powered autonomous drone** designed for **flood rescue** using **human d
 
 ---
 
-## ⚙️ Installation  
+## ⚙️ Installation 
 
 ```bash
 git clone https://github.com/your-username/Flood-Assistance-Drone.git
 cd Flood-Assistance-Drone
 bash setup.sh   # Runs an automatic setup script
+```
+
+## 🚀 Running the Drone
+
+Start Autonomous Flight
+```bash
+python3 src/flight_control/autopilot.py
+```
+Run AI-based Human Detection
+```bash
+python3 src/ai_model/detect.py
+```
